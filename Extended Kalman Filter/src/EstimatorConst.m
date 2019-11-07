@@ -2,7 +2,6 @@ function const = EstimatorConst()
 % 
 % Define the physical constants that are available to the estimator.
 %
-%
 % Class:
 % Recursive Estimation
 % Spring 2019
@@ -15,6 +14,7 @@ function const = EstimatorConst()
 % hofermat@ethz.ch
 % csferrazza@ethz.ch
 %
+
 %% Boat dynamics constants
 const.dragCoefficient = 0.1; % C_d
 const.rudderCoefficient = 2; % C_r
@@ -36,9 +36,7 @@ const.GyroDriftNoise = 0.01; % Q_b
 const.DistNoiseA = 20; % const.DistNoise = \sigma_a^2
 const.DistNoiseB = 20; % const.DistNoise = \sigma_b^2
 const.DistNoiseC = 5; % const.DistNoise = \sigma_c^2
-
 const.GyroNoise = 0.01; % \sigma_g^2
-
 const.CompassNoise = 0.5; %\sigma_n^2
 
 %% Starting point

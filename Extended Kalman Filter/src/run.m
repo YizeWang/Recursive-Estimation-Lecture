@@ -1,17 +1,14 @@
 function trackErrorNorm=run(simConst,estConst,doplot,seed)
 %
-%
 % Main function for Extended Kalman Filter programming exercise.
 % It is used to simulate the true model, call the estimator and show the 
 % results.
-%
 %
 % Class:
 % Recursive Estimation
 % Spring 2019
 % Programming Exercise 1
 %
-% --
 % ETH Zurich
 % Institute for Dynamic Systems and Control
 % Raffaello D'Andrea, Matthias Hofer, Carlo Sferrazza
@@ -19,11 +16,12 @@ function trackErrorNorm=run(simConst,estConst,doplot,seed)
 % csferrazza@ethz.ch
 %
 
-% clear command window, close figures
-% clc;
+clc;
+clear all;
 close all;
 
 if nargin==0
+    
    % Define the simulation constants that are used in simulation, but not 
    % accessible to the estimator.  
    simConst = SimulationConst();
@@ -54,9 +52,7 @@ end
 [tm, state, drift, input, sense] = Simulator( simConst );
 
 % state contains rolling out of [p_x, p_y, s_x, s_y, phi]: time index from 1 to N
-
 % input contains rolling out of [u_t, u_r]: time index from 1 to N-1
-
 % sense contains rolling out of [z_a, z_b, z_c, z_g, z_n] (contains inf):
 % time index from 1 to N, with first measurement inf (to indicate no
 % measurement at initial step)

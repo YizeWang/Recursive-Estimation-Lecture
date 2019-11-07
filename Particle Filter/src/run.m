@@ -1,26 +1,22 @@
 function trackErrorNorm=run(simConst,estConst,doplot,seed)
 %
-%
 % Main function for the Particle Filter programming exercise.
 % It is used to simulate the true model, call the estimator and show the 
 % results.
-%
 %
 % Class:
 % Recursive Estimation
 % Spring 2019
 % Programming Exercise 2
-%
-% ----------------------------------------------------------------------- %
+
+% -----------------------------------------------------------------------
 % ETH Zurich
 % Institute for Dynamic Systems and Control
 % Raffaello D'Andrea, Matthias Hofer, Carlo Sferrazza
 % hofermat@ethz.ch
 % csferrazza@ethz.ch
-% ----------------------------------------------------------------------- %
-% clear command window, close figures
-% clc;
-% close all;
+% -----------------------------------------------------------------------
+
 if nargin==0
    % Define the simulation constants that are used in simulation, but not 
    % accessible to the estimator.
