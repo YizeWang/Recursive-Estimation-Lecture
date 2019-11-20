@@ -8,6 +8,6 @@ This repository stores my programming exercises for the Recursive Estimation lec
 
 ## Usage
 
-- Extended Kalman Filter: run <code>run.m</code>
-- Particle Filter: run <code>run.m</code>
+- Extended Kalman Filter: run `run.m`
+- Particle Filter: run `run.m`
 
