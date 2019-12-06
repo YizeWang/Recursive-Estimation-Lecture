@@ -9,12 +9,8 @@ function trackErrorNorm=run(simConst,estConst,doplot,seed)
 % Spring 2019
 % Programming Exercise 1
 %
-% ETH Zurich
-% Institute for Dynamic Systems and Control
-% Raffaello D'Andrea, Matthias Hofer, Carlo Sferrazza
-% hofermat@ethz.ch
-% csferrazza@ethz.ch
-%
+% Author: Yize Wang
+% Email: yizwang@student.ethz.ch
 
 clc;
 clear all;
