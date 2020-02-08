@@ -4,7 +4,7 @@ This repository stores my programming exercises for the Recursive Estimation lec
 
 ## Evaluation
 
-- Full grade
+- Full grade granted
 
 ## Requirement
 
